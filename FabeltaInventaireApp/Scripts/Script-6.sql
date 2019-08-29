@@ -1,0 +1,2 @@
+insert into fabeltaschema.productlocationfabelta (id,product_id,location_id,locationquantity,date_derniere_modif)
+values (uuid_generate_v4(),'d1691c05-e3b2-42d9-b16b-0f8c7f1da1b2','4f945fcc-07df-4126-ace9-a61b3baef393',10,current_timestamp);

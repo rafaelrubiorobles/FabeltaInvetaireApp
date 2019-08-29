@@ -1,0 +1,1 @@
+select * from fabeltaschema.productlocationfabelta where location_id = '54ef8ccc-2151-49fe-8c2b-7107a109e00d';

@@ -1,0 +1,1 @@
+select * from fabeltaschema.locationfabelta where (lower(code)) like 'ENT-P04-026';

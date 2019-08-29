@@ -1,0 +1,1 @@
+update fabeltaschema.productlocationfabelta set commentaire = 'Commentaire' where location_id = '2c88f450-9dd5-4a85-9c3e-7a1559d7c3c2' and product_id = '15527768-64f4-42d2-aef6-9c8a6b940561' ;

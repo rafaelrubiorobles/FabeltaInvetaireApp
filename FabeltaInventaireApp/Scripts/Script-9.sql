@@ -1,0 +1,1 @@
+select * from fabeltaschema.productlocationfabelta where product_id = ? and location_id = ?

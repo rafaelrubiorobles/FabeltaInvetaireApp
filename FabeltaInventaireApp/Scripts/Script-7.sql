@@ -1,0 +1,1 @@
+delete from fabeltaschema.productlocationfabelta where locationquantity = 0;

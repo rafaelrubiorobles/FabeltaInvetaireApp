@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="postgres-jdbc-16b75366fc9-236bbaeb64ae86a1" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - Fabelta_BC_v9_Test" save-password="true" read-only="false">
+		<connection host="192.168.100.216" port="5432" server="" database="Fabelta_BC_v9_Test" url="jdbc:postgresql://192.168.100.216:5432/Fabelta_BC_v9_Test" user="postgres" password="EQcnJEwHF1dTQmbf" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+		<virtual-meta-data>
+			<container name="model">
+				<container name="Fabelta_BC_v9_Test">
+					<container name="fabeltaschema">
+						<entity name="productlocationfabelta">
+							<constraint name="PRIMARY" type="VIRTUAL PRIMARY KEY">
+								<attribute name="id"/>
+								<attribute name="product_id"/>
+								<attribute name="location_id"/>
+								<attribute name="locationquantity"/>
+								<attribute name="commentaire"/>
+								<attribute name="utilisateur_id"/>
+								<attribute name="date_derniere_modif"/>
+							</constraint>
+						</entity>
+						<entity name="productfabelta">
+							<constraint name="PRIMARY" type="VIRTUAL PRIMARY KEY">
+								<attribute name="id"/>
+								<attribute name="code"/>
+								<attribute name="description"/>
+								<attribute name="is_used"/>
+							</constraint>
+						</entity>
+					</container>
+				</container>
+			</container>
+		</virtual-meta-data>
+	</data-source>
+	<filters/>
+</data-sources>

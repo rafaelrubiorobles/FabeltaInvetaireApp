@@ -1,0 +1,1 @@
+select locationquantity from fabeltaschema.productlocationfabelta where location_id = and product_id =

@@ -1,0 +1,1 @@
+SELECT * FROM fabeltaschema.utilisateurinventairefabelta fsuib where fsuib.is_used = true; 

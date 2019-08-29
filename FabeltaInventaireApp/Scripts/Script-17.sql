@@ -1,0 +1,1 @@
+select commentaire from fabeltaschema.productlocationfabelta where location_id = '54ef8ccc-2151-49fe-8c2b-7107a109e00d' and product_id = 'ad7d4a15-2476-4661-bc31-d9e2a6c2ede8';

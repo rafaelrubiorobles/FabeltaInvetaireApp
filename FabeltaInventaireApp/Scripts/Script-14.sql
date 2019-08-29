@@ -1,0 +1,1 @@
+select * from fabeltaschema.locationfabelta where code = 'ENT-REC-000'

@@ -1,0 +1,1 @@
+delete from fabeltaschema.productlocationfabelta where location_id = '' and locationquantity = 0;
